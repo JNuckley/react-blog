@@ -1,15 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,} from 'react-router-dom';
-import './App.css';
 import HomePage from './Pages/HomePage'
 import ArticlePage from './Pages/ArticlePage';
 import ArticleList from './Pages/ArticlesList';
 import AboutPage from './Pages/AboutPage';
+import NavBar from './NavBar';
+import './App.css';
+
 
 function App() {
   return (
     <Router>
     <div className="App">
+      <NavBar />
       <div id="Page-body">
       <Route path="/" component={HomePage} exact />
       <Route path="/About" component={AboutPage} exact />
