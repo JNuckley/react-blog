@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 yarn create react-app react-blog
 npm install --save react-router-dom
 
+## Testing
+<!-- yarn add --dev jest -->
+
 ## Available Scripts
 
 In the project directory, you can run:
